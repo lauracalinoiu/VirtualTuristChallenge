@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		D3EB017D1BA5921300624507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB017C1BA5921300624507 /* AppDelegate.swift */; };
-		D3EB017F1BA5921300624507 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB017E1BA5921300624507 /* ViewController.swift */; };
 		D3EB01821BA5921300624507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EB01801BA5921300624507 /* Main.storyboard */; };
 		D3EB01841BA5921300624507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EB01831BA5921300624507 /* Assets.xcassets */; };
 		D3EB01871BA5921300624507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EB01851BA5921300624507 /* LaunchScreen.storyboard */; };
+		D3EB01911BA596E500624507 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB01901BA596E500624507 /* MapViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D3EB01931BA6B4DF00624507 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EB01921BA6B4DF00624507 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D3EB01791BA5921300624507 /* VirtualTuristChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualTuristChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3EB017C1BA5921300624507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3EB017E1BA5921300624507 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3EB01811BA5921300624507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3EB01831BA5921300624507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3EB01861BA5921300624507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3EB01881BA5921300624507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EB01901BA596E500624507 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D3EB01921BA6B4DF00624507 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3EB01931BA6B4DF00624507 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		D3EB01701BA5921200624507 = {
 			isa = PBXGroup;
 			children = (
+				D3EB01921BA6B4DF00624507 /* MapKit.framework */,
 				D3EB017B1BA5921300624507 /* VirtualTuristChallenge */,
 				D3EB017A1BA5921300624507 /* Products */,
 			);
@@ -55,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				D3EB017C1BA5921300624507 /* AppDelegate.swift */,
-				D3EB017E1BA5921300624507 /* ViewController.swift */,
+				D3EB01901BA596E500624507 /* MapViewController.swift */,
 				D3EB01801BA5921300624507 /* Main.storyboard */,
 				D3EB01831BA5921300624507 /* Assets.xcassets */,
 				D3EB01851BA5921300624507 /* LaunchScreen.storyboard */,
@@ -135,8 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3EB017F1BA5921300624507 /* ViewController.swift in Sources */,
 				D3EB017D1BA5921300624507 /* AppDelegate.swift in Sources */,
+				D3EB01911BA596E500624507 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				D3EB018D1BA5921300624507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
